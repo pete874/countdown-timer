@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Shadows+Into+Light&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Shadows Into Light', cursive;
+    margin: 0;
+    background-image: url(./waves.jpg);
+    background-position: center center;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.countdown-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+h1 {
+    font-size: 4rem;
+}
+
+.big-text {
+    font-size: 3rem;
+    line-height: 1rem;
+    margin: 0 1rem;
+}
+
+.countdown-1 {
+    text-align: center;
+    margin-left: 4rem;
+}
+
+.countdown-1 span {
+    font-size: 3rem;
+}
